@@ -1,0 +1,16 @@
+{
+  "name": "why-more",
+  "version": "1",
+  "description": "Simply create svelte pages",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.18.4",
+    "esbuild-svelte": "^0.7.3"
+  },
+  "bin": {
+    "why-more": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node ./bin/index.js build example/input_folder example/output_folder"
+  }
+}
