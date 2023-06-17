@@ -5,14 +5,14 @@ The overview is simple:
 1) Call either `why-more build` or `why-more dev` and every svelte component in
 the top level of the `src` folder of your project is turned into a page in a `dist` folder
 
-Thats the whole process. No multiple steps. No config files. One dependency.
+Thats the whole process. No multiple steps. No config files. Two dependencies.
 
 ## Usage
 
 Make your project folder
 
 1) `npm init`
-2) `npm i --save why-more`
+2) `npm i --save why-more svelte`
 3) `"build": "why-more build [your_input_folder] [your_output_folder]"` in your `package.json` scripts section
 4) `"dev": "why-more dev [your_input_folder] [your_output_folder]"` in your `package.json` scripts section
 5) Write svelte files in the input folder
